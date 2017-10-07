@@ -1,0 +1,8 @@
+Nadeyus', vse znayut, chto eti progi nado kompilit'
+s klyuchem -lpthread :)
+
+A zapuskat' nado primerno tak:
+./App 3 500
+
+Pervoe chislo - kolichestvo tredov.
+Vtoroe chislo - razmer matritsy.
