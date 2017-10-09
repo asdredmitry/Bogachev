@@ -2,7 +2,7 @@
 
 #include "task.h"
 
-static double CalcNorm(int n, double* a)
+double CalcNorm(int n, double* a)
 {
 	int i;
 	int j;
@@ -23,7 +23,7 @@ static double CalcNorm(int n, double* a)
 	return rezult;
 }
 
-static void Rot3(int n, double* a)
+void Rot3(int n, double* a)
 {
 	int i;
 	int j;
@@ -88,8 +88,7 @@ static void Rot3(int n, double* a)
 		}
 	}
 }
-
-static int n_(int n, double* a, double lambda)
+int n_(int n, double* a, double lambda)
 {
 	int i;
 	int rezult;

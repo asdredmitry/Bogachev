@@ -16,7 +16,7 @@ int main(void)
 	int iter;
 	int rezult;
 	int inputMode;
-	double eps = 1e-10;
+	double eps = 1e-14;
 	double inv1;
 	double inv2;
 	double* a = NULL;
@@ -109,7 +109,6 @@ int main(void)
 
 	printf("\nMatrix A:\n");
 	PrintMatrix(n, a);
-	printf("\n");
 
 	printf("Calculating...\n");
 
@@ -144,6 +143,5 @@ int main(void)
 
 	free(a);
 	free(values);
-
 	return 0;
 }
